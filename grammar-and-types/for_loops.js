@@ -7,14 +7,14 @@
 
 //Problem.1 This code will count from 0 to 12, if you fix it.
 const a = 12;
-for (let i = 0; i < a){
-  console.log(a);
+for (let i = 0; i < a;i++){
+  console.log(i);
 }
 
 //Problem.2 The code will print all odd numbers from 0 to 100, after fixing.
 for (let i = 0; i < 101; i++){
-  if (i %2 !== 1){
-    console.log(p[i]);
+  if (i %2 !== 0){
+    console.log(i);
   }
 }
 
